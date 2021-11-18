@@ -15,7 +15,7 @@
     font-size: 20px;
 }
 .headerTitlesLg{
-    color: aquamarine;
+    /* color: aquamarine; */
     position: absolute;
     top: 20%;
     font-size: 100px;
@@ -26,9 +26,9 @@
     height: 450px;
     margin-top: 80px;
     object-fit: cover;
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
-
+/* 
 .headerImg:hover{
     opacity: 1;
-}
+} */
