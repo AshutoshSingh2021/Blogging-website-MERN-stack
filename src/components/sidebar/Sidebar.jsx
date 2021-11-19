@@ -5,7 +5,7 @@ export default function Sidebar() {
     <div className="sidebar">
       <div className="sidebarItems">
         <span className="sidebarTitle">ABOUT US</span>
-        <img className="sidebarImg" src="images/pixelImg.jpg" alt="" />
+        <img className="sidebarImg" src="images/canva.gif" alt="" />
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rerum
           mollitia, nulla nemo totam nobis?
