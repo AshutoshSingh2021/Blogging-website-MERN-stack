@@ -1,9 +1,11 @@
+
 import './post.css'
+import SinglePost from '../singlePost/SinglePost'
 
 export default function Post() {
     return (
         <div className="post">
-            <img className="postImg" src="images/pexels-josh-sorenson-1714208.jpg" alt="" />
+            <img className="postImg" src="./images/pexels-josh-sorenson-1714208.jpg" alt="" />
             <div className="postInfo">
                 <div className="postCatg">
                     <span className="postCat">Technology</span>
@@ -20,7 +22,7 @@ export default function Post() {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione magni maxime velit, illum ducimus facere iste at tempora. Cupiditate voluptatem architecto quibusdam nam modi?
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione magni maxime velit, illum ducimus facere iste at tempora. Cupiditate voluptatem architecto quibusdam nam modi?
             </p>
-
+            <SinglePost/>
         </div>
     )
 }
